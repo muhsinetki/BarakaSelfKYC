@@ -1,0 +1,11 @@
+framework module BarakaSelfKYC {
+  umbrella header "BarakaSelfKYC.h"
+
+  export *
+  module * { export * }
+}
+
+module BarakaSelfKYC.Swift {
+    header "BarakaSelfKYC-Swift.h"
+    requires objc
+}
